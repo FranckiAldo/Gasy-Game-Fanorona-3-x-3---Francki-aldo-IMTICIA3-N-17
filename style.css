@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9 {
+    cursor: pointer;
+    position: absolute;
+    float: left;
+    justify-content: center;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 50px;
+    padding: 10px;
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+  }
+
+/* marg left */
+.div1, .div7, .div4{                              
+    margin-left: -20px;
+}
+.div2, .div5, .div8{
+    margin-left: 205px;
+}
+.div3, .div6, .div9{
+    margin-left: 430px;
+}
+/*marg top*/
+.div1, .div2, .div3{
+    margin-top: -20px;
+}
+.div4, .div5, .div6{
+    margin-top: 205px;
+}
+
+.div7, .div8, .div9{
+    margin-top: 430px;
+}
+
+.container{
+    width: 460px;
+    height: 465px;    
+    background-image: url(sary.png);
+    background-size: 100%;
+    margin-top: 130px;
+}
+
+.fond{
+    position: absolute;
+    display: flex;
+   
+}
+.farany{
+    width: 230px;
+    height: 100px;
+    background-color: rgb(125, 156, 68);
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 100px;
+    display: none;
+    text-align: center;
+}
+.farany2{
+    width: 230px;
+    height: auto;
+    background-color: rgb(125, 156, 68);
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 100px;
+
+    text-align: center;
+    padding-block: 20px;
+}
+
+.h1{
+    text-align: center;
+    margin-inline: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nom{
+    position: absolute;
+    margin-top: -520px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.score{
+    font-size: 60px;
+}
+
+.farany2{
+    display: none;;
+}
+.rec{
+    padding: 10px;
+    background-color: rgb(125, 156, 68);
+    border-radius: 5px;
+    cursor: pointer;
+}
